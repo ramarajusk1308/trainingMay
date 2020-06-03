@@ -32,4 +32,9 @@ public class test8 {
 	public static void addNewTest2() {
 		System.out.println("test added 2");
 	}
+	
+	@Test
+	public static void addNewTest3() {
+		System.out.println("test added 3");
+	}
 }
