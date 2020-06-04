@@ -10,12 +10,4 @@
 		</classes>
 	</test>
 	
-	<test name="Fireofx">
-		<parameter name="browser" value="Firefox"></parameter>
-		<classes>
-			<class name="test.com.test1"></class>
-			<class name="test.com.test4"></class>
-		</classes>
-	</test>
-	
 </suite>
