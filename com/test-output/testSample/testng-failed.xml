@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [testSample]">
-  <test name="testFunctional(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSample]" parallel="tests">
+  <test name="Fireofx(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="test.com.listeners_test">
+      <class name="test.com.test1">
         <methods>
-          <include name="reportDetails"/>
-          <include name="endTest"/>
-          <include name="test1"/>
+          <include name="launchChrome" invocation-numbers="0"/>
         </methods>
-      </class> <!-- test.com.listeners_test -->
-      <class name="test.com.listeners_test3">
-        <methods>
-          <include name="reportDetails"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- test.com.listeners_test3 -->
+      </class> <!-- test.com.test1 -->
     </classes>
-  </test> <!-- testFunctional(failed) -->
+  </test> <!-- Fireofx(failed) -->
 </suite> <!-- Failed suite [testSample] -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSample" duration-ms="7000" started-at="2020-06-04T14:34:43Z" finished-at="2020-06-04T14:34:50Z">
+    <groups>
+      <group name="Regression">
+        <method signature="test4.test1()[pri:0, instance:test.com.test4@3567135c]" name="test1" class="test.com.test4"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Chrome" duration-ms="7000" started-at="2020-06-04T14:34:43Z" finished-at="2020-06-04T14:34:50Z">
+      <class name="test.com.test1">
+        <test-method status="PASS" signature="launchChrome(java.lang.String)[pri:0, instance:test.com.test1@2d554825]" name="launchChrome" duration-ms="6949" started-at="2020-06-04T20:04:44Z" finished-at="2020-06-04T20:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+      </class> <!-- test.com.test1 -->
+      <class name="test.com.test4">
+        <test-method status="PASS" signature="login()[pri:0, instance:test.com.test4@3567135c]" name="login" duration-ms="4" started-at="2020-06-04T20:04:50Z" finished-at="2020-06-04T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="searchUser()[pri:0, instance:test.com.test4@3567135c]" name="searchUser" duration-ms="1" started-at="2020-06-04T20:04:50Z" finished-at="2020-06-04T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:test.com.test4@3567135c]" name="test1" duration-ms="1" started-at="2020-06-04T20:04:50Z" finished-at="2020-06-04T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:test.com.test4@3567135c]" name="registerUser" duration-ms="0" started-at="2020-06-04T20:04:50Z" depends-on-methods="test.com.test4.searchUser, test.com.test4.login" finished-at="2020-06-04T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- test.com.test4 -->
+    </test> <!-- Chrome -->
+  </suite> <!-- testSample -->
+</testng-results>

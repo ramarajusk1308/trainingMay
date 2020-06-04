@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSample">
+
+	<test name="testFunctional">
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.com.test1"></class>
+		</classes>
+	</test>
+	<test name="testFunctional">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.com.test5"></class>
+		</classes>
+	</test>
+	<test name="testFunctional">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.com.test1"></class>
+			<class name="test.com.test2"></class>
+			<class name="test.com.test5"></class>
+		</classes>
+	</test>
+</suite>
